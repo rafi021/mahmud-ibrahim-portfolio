@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mahmud-ibrahim-portfolio/static/css/main.3b632379.css",
+    "main.js": "/mahmud-ibrahim-portfolio/static/js/main.04974c01.js",
+    "index.html": "/mahmud-ibrahim-portfolio/index.html",
+    "main.3b632379.css.map": "/mahmud-ibrahim-portfolio/static/css/main.3b632379.css.map",
+    "main.04974c01.js.map": "/mahmud-ibrahim-portfolio/static/js/main.04974c01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b632379.css",
+    "static/js/main.04974c01.js"
+  ]
+}
