@@ -44,9 +44,8 @@ const Header = () => {
 
   return (
     <motion.header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/95 backdrop-blur-md shadow-md' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-md shadow-md' : 'bg-transparent'
+        }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, type: "spring" }}
@@ -57,7 +56,7 @@ const Header = () => {
           <motion.a
             href="#hero"
             onClick={(e) => scrollToSection(e, '#hero')}
-            className="text-2xl font-bold text-slate-900 hover:text-cyan-600 transition-colors"
+            className="text-2xl font-bold text-slate-200 hover:text-cyan-600 transition-colors"
             style={{ fontFamily: 'IBM Plex Sans, sans-serif' }}
             whileHover={{ scale: 1.1, rotate: 5 }}
             whileTap={{ scale: 0.95 }}

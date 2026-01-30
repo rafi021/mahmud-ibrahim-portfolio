@@ -10,8 +10,9 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const highlights = [
-    'High-availability systems serving 600K+ users',
-    'Performance optimization up to 75%',
+    'High-availability systems design serving 600K+ users',
+    'Performance optimization up to 85%',
+    'Database design & optimization (SQL & NoSQL)',
     'DevOps-driven CI/CD pipelines on AWS & Kubernetes',
     'Microservices architecture expertise',
     'SaaS & Fintech platform development'

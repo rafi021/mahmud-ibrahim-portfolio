@@ -23,7 +23,7 @@ const Footer = () => {
                 Senior Backend Engineer / Tech Lead
               </p>
               <p className="text-slate-400 text-sm mt-2">
-                Building scalable systems that make a difference
+                Proud Father of Two Sons
               </p>
             </div>
 
@@ -113,7 +113,7 @@ const Footer = () => {
               <p className="flex items-center">
                 © {currentYear} {personalInfo.name}. Built with
                 <Heart className="h-4 w-4 mx-1 text-red-500" />
-                using React & FastAPI
+                Love
               </p>
               <p className="mt-2 md:mt-0">All rights reserved.</p>
             </div>
